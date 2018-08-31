@@ -1,5 +1,7 @@
 node_modules
-dist*
+dist
+dist_ff
 *_ext.zip
 public/bundle.js
-*.json
+package-lock.json
+
