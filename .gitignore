@@ -4,4 +4,5 @@ dist_ff
 *_ext.zip
 public/bundle.js
 package-lock.json
-
+*.pem
+*.crx
