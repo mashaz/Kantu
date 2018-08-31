@@ -1,4 +1,4 @@
-# 📌 New: Kantu user forum launched - https://forum.a9t9.com
+# 📌 Questions? Suggestions? - Meet us in the Kantu user forum at https://forum.a9t9.com
 
 Please post all questions and suggestions in our public user forum at https://forum.a9t9.com - the Kantu [selenium ide forum](https://forum.a9t9.com/c/kantu) is monitored by active users, tech support and the Kantu developers, so we would like to concentrate the discussion "over there".
 
@@ -14,9 +14,9 @@ As beta tester, we will email you (hidden) install links for new Kantu versions 
 The link goes to a Mailchimp signup form. 
 
 
-# Kantu-for-Chrome
+# How to install Kantu:
 
-Kantu for Chrome and Firefox - a modern Selenium IDE and Web Macro Recorder 
+Kantu for Chrome and Firefox is a modern Selenium IDE and Web Macro Recorder. You find the latest version always in the Chrome and Firefox web "stores". You can use it _completely free for private and commercial purposes_: 
 
 - [Kantu for Chrome plus Selenium IDE in the Google Chrome Webstore](https://chrome.google.com/webstore/detail/kantu-browser-automation/gcbalfbdmfieckjlnblleoemohcganoc)
 
@@ -28,13 +28,13 @@ Kantu for Chrome and Firefox - a modern Selenium IDE and Web Macro Recorder
 
 # Building the Chrome Extension
 
-We use Node V8.11.1 and Node V5.6.0.
+We use Node V8.11.1 and NPM V5.6.0.
 
 You can [install Kantu directly from the Chrome or Firefox stores](https://a9t9.com/kantu/), which is the easiest and the recommended way of using the Kantu Selenium IDE. But of course developers can also build it directly from the source code with this command line:
 
 ```
 npm i
-npm run build (or build_ff for Firefox)
+npm run build (or build-ff for Firefox)
 ```
 
 Once done, the ready-to-use extension code appears in the /dist directory (Chrome) or /dist_ff directory (Firefox).

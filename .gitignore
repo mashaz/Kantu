@@ -1,4 +1,5 @@
 node_modules
 dist*
+*_ext.zip
 public/bundle.js
 *.json
