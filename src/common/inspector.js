@@ -376,6 +376,9 @@ var getLocator = ($dom, withAllOptions) => {
   const classes = Array.from($dom.classList)
   const candidates = []
 
+  // xpath
+  candidates.push(xpath($dom))
+
   // link
   if (isLink && text && text.length) {
     const links   = [].slice.call(document.getElementsByTagName('a'))
@@ -399,8 +402,7 @@ var getLocator = ($dom, withAllOptions) => {
     candidates.push(`name=${name}`)
   }
 
-  // xpath
-  candidates.push(xpath($dom))
+
 
   // css
   // Try with simple css selector first. If not unqiue, use full css selector
